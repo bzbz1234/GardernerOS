@@ -18,3 +18,11 @@ os/target/riscv64gc-unknown-none-elf/debug/.fingerprint/os-c64002147260573f/dep-
 *.timestamp
 os/target/riscv64gc-unknown-none-elf/debug/deps/os-c64002147260573f
 os/target/riscv64gc-unknown-none-elf/debug/os
+
+
+os/target/release/.cargo-lock
+os/target/riscv64gc-unknown-none-elf/release/.cargo-lock
+os/target/riscv64gc-unknown-none-elf/release/.fingerprint/os-abd48ba8381d02f4/bin-os
+os/target/riscv64gc-unknown-none-elf/release/.fingerprint/os-abd48ba8381d02f4/dep-bin-os
+os/target/riscv64gc-unknown-none-elf/release/deps/os-abd48ba8381d02f4
+os/target/riscv64gc-unknown-none-elf/release/os
