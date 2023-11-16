@@ -8,7 +8,7 @@ os/target/debug/.fingerprint/os-c4e64d229733e3a7/dep-bin-os
 os/target/debug/deps/os-c4e64d229733e3a7
 os/target/debug/incremental/os-2cuy097a4tjk2/s-gqncy7fjzn-1ryj9xn-3rlallyxoqu9h/dep-graph.bin
 os/target/debug/deps/os-c4e64d229733e3a7.d
-*.bin
+
 *.lock
 os/target/debug/os
 *.d
@@ -26,3 +26,9 @@ os/target/riscv64gc-unknown-none-elf/release/.fingerprint/os-abd48ba8381d02f4/bi
 os/target/riscv64gc-unknown-none-elf/release/.fingerprint/os-abd48ba8381d02f4/dep-bin-os
 os/target/riscv64gc-unknown-none-elf/release/deps/os-abd48ba8381d02f4
 os/target/riscv64gc-unknown-none-elf/release/os
+os/target/debug/incremental/os-2cuy097a4tjk2/s-gqncy7fjzn-1ryj9xn-3rlallyxoqu9h/query-cache.bin
+os/target/debug/incremental/os-2cuy097a4tjk2/s-gqncy7fjzn-1ryj9xn-3rlallyxoqu9h/work-products.bin
+os/target/riscv64gc-unknown-none-elf/debug/incremental/os-2zb4w3jqb3kq9/s-gqneaocenv-vih1dd-1wqpaeh4z66uf/dep-graph.bin
+os/target/riscv64gc-unknown-none-elf/debug/incremental/os-2zb4w3jqb3kq9/s-gqneaocenv-vih1dd-1wqpaeh4z66uf/query-cache.bin
+os/target/riscv64gc-unknown-none-elf/debug/incremental/os-2zb4w3jqb3kq9/s-gqneaocenv-vih1dd-1wqpaeh4z66uf/work-products.bin
+os/target/riscv64gc-unknown-none-elf/release/os.bin
