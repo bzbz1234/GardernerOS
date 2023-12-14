@@ -3,29 +3,49 @@
     .section .data
     .global _num_app
 _num_app:
-    .quad 3
+    .quad 4
     .quad app_0_start
     .quad app_1_start
     .quad app_2_start
-    .quad app_2_end
+    .quad app_3_start
+    .quad app_3_end
 
     .section .data
     .global app_0_start
     .global app_0_end
 app_0_start:
+<<<<<<< Updated upstream
     .incbin "../user/target/riscv64gc-unknown-none-elf/release/00hello_world.bin"
+=======
+    .incbin "../user/target/riscv64gc-unknown-none-elf/release/00power3.bin"
+>>>>>>> Stashed changes
 app_0_end:
 
     .section .data
     .global app_1_start
     .global app_1_end
 app_1_start:
+<<<<<<< Updated upstream
     .incbin "../user/target/riscv64gc-unknown-none-elf/release/01store_fault.bin"
+=======
+    .incbin "../user/target/riscv64gc-unknown-none-elf/release/01power5.bin"
+>>>>>>> Stashed changes
 app_1_end:
 
     .section .data
     .global app_2_start
     .global app_2_end
 app_2_start:
+<<<<<<< Updated upstream
     .incbin "../user/target/riscv64gc-unknown-none-elf/release/02power.bin"
+=======
+    .incbin "../user/target/riscv64gc-unknown-none-elf/release/02power7.bin"
+>>>>>>> Stashed changes
 app_2_end:
+
+    .section .data
+    .global app_3_start
+    .global app_3_end
+app_3_start:
+    .incbin "../user/target/riscv64gc-unknown-none-elf/release/03sleep.bin"
+app_3_end:

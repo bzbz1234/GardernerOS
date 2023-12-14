@@ -6,9 +6,16 @@
 mod console;
 mod lang_items;
 mod sbi;
-mod syscall;
 mod trap;
+<<<<<<< Updated upstream
 mod batch;
+=======
+mod syscall;
+mod config;
+mod loader;
+mod task;
+mod timer;
+>>>>>>> Stashed changes
 
 use core::arch::global_asm;
 
@@ -28,6 +35,14 @@ pub fn rust_main() -> ! {
     clear_bss();
     println!("[Kernel] Hello, world!");
     trap::init();
+<<<<<<< Updated upstream
     batch::init();
     batch::run_next_app();
+=======
+    loader::load_apps();
+    trap::enable_timer_interrupt();
+    timer::set_next_trigger();
+    task::run_first_task();
+    panic!("Unreachable in rust_main!");
+>>>>>>> Stashed changes
 }
